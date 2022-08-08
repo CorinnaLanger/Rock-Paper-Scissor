@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    
+}
+
+.komma {
+    color: aqua;
+}
+#firstRoundStyle {
+    color: aqua;
+}
+h1 {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+.hrAnimation {
+    border-color: aqua;
+    animation-name: hranimieren;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: all 2s;
+}
+@keyframes hranimieren {
+    0%   { width: 100%; }
+    50% { width: 58%; }
+    70% {width: 50%;}
+    80% { width: 43%;}
+    90% {width: 0%;}
+    100%{ width:100%;}
+}
+#hrblue {
+    border-color: aqua;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.rounds {
+    display: flex;
+    margin-top: 10%;
+     
+}
+.howRounds {
+    border: 1px white dotted;
+    width: 15vw;
+    height: 17vh;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+} 
+.Fivesplus {
+    margin-left: 20%;
+}
+.Tenplus {
+    margin-left: 30%;
+}
+#h3Rounds {
+    text-align: center;
+    color: aqua;
+   
+}
+#rounds {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#score {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+#user {
+    padding: 1%;
+    border: 1px darkcyan double;
+}
+#comp {
+    padding: 1%;
+    border: 1px darkcyan double;
+}
+
+
+#you{
+    font-size: 2rem; 
+}
+
+#computer{ 
+    font-size: 2rem;
+}
+
+
+#play {
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+h2 span {
+    color: aqua;
+}
+#buttonAuswahl {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#rock {
+    margin-right: 1%;
+}
+#paper {
+    margin-right: 1%;
+}
+#yourmove {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+p span {
+    color: aqua;
+}
+#reset {
+    display: inline-block;
+    color: aqua;
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    margin-left: 48%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}

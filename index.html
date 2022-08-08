@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, scissors</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>
+          Rock<span class="komma">, </span>Paper<span class="komma">, </span
+          >Scissors
+        </h1>
+        <hr class="hrAnimation" />
+        <div class="howRounds">
+          <div id="result"></div>
+          <h2>How many <span id="firstRoundStyle">Rounds</span>?</h2>
+          <form>
+            <div class="rounds">
+              <input
+                type="radio"
+                id="five"
+                class="Fivesplus"
+                value="5"
+                name="rounds"
+              />
+              <label for="five">05</label>
+              <input
+                type="radio"
+                id="ten"
+                class="Tenplus"
+                value="10"
+                name="rounds"
+              />
+              <label for="ten">10</label>
+            </div>
+            <div class="rounds">
+              <input
+                type="radio"
+                id="15"
+                class="Fivesplus"
+                value="15"
+                name="rounds"
+              />
+              <label for="fiveteen">15</label>
+              <input
+                type="radio"
+                id="twenty"
+                class="Tenplus"
+                value="20"
+                name="rounds"
+              />
+              <label for="twenty">20</label>
+            </div>
+          </form>
+        </div>
+        <div class="howRounds">
+          <div id="score">
+            <h3 id="user" class="styleName">User</h3>
+            <h3><span id="you">0</span> : <span id="computer">0</span></h3>
+            <h3 id="comp" class="styleName">Comp</h3>
+          </div>
+          <h3 id="h3Rounds">Rounds</h3>
+          <div id="rounds">
+            <h3><span id="yourRound">0</span></h3>
+            <h3>/</h3>
+            <h3><span id="verfügbareRunden">0</span></h3>
+          </div>
+        </div>
+        <h2 id="play"><span>Let's </span>Play</h2>
+        <p>you: <span id="userchoice"></span></p>
+        <p>pc: <span id="pcresult"></span></p>
+        <p>result: <span id="ergebnis"></span></p>
+        <div id="buttonAuswahl">
+          <button id="rock" class="btnchoices">Rock</button>
+          <button id="paper" class="btnchoices">Paper</button>
+          <button id="scissors" class="btnchoices">Scissors</button>
+        </div>
+        <h2 id="yourmove">Make your move.</h2>
+        <hr class="hrAnimation" />
+        <input type="button" id="reset" value="Restart" />
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
